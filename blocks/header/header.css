@@ -1,0 +1,45 @@
+.header {
+    max-width: 1440px;
+    min-height: 782px;
+    background-image: url(../../images/header.png);
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.19;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-top: 167px;
+    margin: 0;
+}
+
+.header__subtitle {
+    padding-top: 39px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header__signup {
+    margin-top: 39px;
+    width: 160px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    cursor: pointer;
+}

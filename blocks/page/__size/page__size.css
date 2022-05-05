@@ -1,0 +1,4 @@
+.page__size {
+    max-width: calc(100% - 2*165px);
+    margin: 0 auto;
+}
