@@ -1,0 +1,41 @@
+.cards_type_4 {
+    padding-bottom: 104px;
+}
+
+.cards__item_type_4 {
+    width: 255px;
+    height: 226px;
+    position: relative;
+}
+
+.cards__background {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+}
+
+.cards__image_type_4 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, -70%)
+}
+
+.cards__title_type_4 {
+    padding-top: 19px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.cards__subtitle_type_4 {
+    padding-top: 10px;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

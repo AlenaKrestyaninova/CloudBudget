@@ -21,21 +21,14 @@
 @import url(../blocks/cards/cards.css);
 
 
-/* Раздел places*/
-@import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__url-heading/place__url-heading.css);
-@import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
+/* Раздел technology*/
+@import url(../blocks/technology/technology.css);
+@import url(../blocks/cards/_type/cards_type_4.css);
 
-/* Раздел cover*/
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* Раздел app*/
+@import url(../blocks/app/app.css);
+
 
 /* Раздел footer*/
 @import url(../blocks/footer/footer.css);

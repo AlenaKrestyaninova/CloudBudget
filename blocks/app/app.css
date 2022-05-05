@@ -1,0 +1,71 @@
+.app {
+    background-color: #ED4C5C;
+}
+
+.app__content {
+    padding-top: 94px;
+    padding-bottom: 95px;
+    display: grid;
+    grid-template-columns: 445px 1fr;
+    grid-template-rows: max-content;
+    align-items: center;
+    gap: 81px;
+    color: #FFFFFF;
+}
+
+.app__text {
+    width: 445px;
+}
+
+.app__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0;
+}
+
+.app__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    padding-top: 24px;
+    margin: 0;
+
+}
+
+.app__download-links {
+    padding-top: 40px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.app__download-link {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.app__photo-conteiner {
+    box-sizing: border-box;
+    height: 311px;
+    position: relative;
+}
+
+.app__photo {
+    position: absolute;
+}
+
+.app__photo:nth-child(1) {
+    top: 22px;
+    left: 0;
+}
+
+.app__photo:nth-child(2) {
+    top: 22px;
+    left: 150px;
+}
+
+.app__photo:nth-child(3) {
+    top: 0;
+    left: 44px;
+}
