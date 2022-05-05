@@ -16,8 +16,9 @@
 @import url(../blocks/overview/overview.css);
 
 
-/* Раздел photo-grid*/
-@import url(../blocks/photo-grid/photo-grid.css);
+/* Раздел features*/
+@import url(../blocks/features/features.css);
+@import url(../blocks/cards/cards.css);
 
 
 /* Раздел places*/

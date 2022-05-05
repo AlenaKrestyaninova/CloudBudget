@@ -32,17 +32,21 @@
     padding-top: 24px;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
 }
 
 .overview__more {
-    padding-top: 20px;
+    
     margin: 0;
     font-family: 'Lato', sans-serif;
+    color: #ED4C5C;
+    text-decoration: none;
 }
 
 .overview__video-conteiner {
     position: relative;
-    
+    box-sizing: border-box;
+    height: 311px;
 }
 
 .overview__video {
@@ -53,6 +57,7 @@
 
 .overview__play {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: -33px;
+    height: 66px;
 }
