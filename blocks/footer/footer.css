@@ -2,11 +2,12 @@
     background-color: #FAFAFA;
 }
 
-
-
 .footer__copyright {
     padding-top: 86px;
     padding-bottom: 86px;
     margin: 0;
     padding-left: 165px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 }

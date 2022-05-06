@@ -48,6 +48,25 @@
     align-items: center;
 }
 
+.navbar__lang-img {
+    margin-right: 12px;
+}
+
+.navbar__lang-choice {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
 .navbar__login {
     font-weight: 400;
     font-size: 14px;
