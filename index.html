@@ -150,15 +150,70 @@
         </article>
       </section>
 
-      <section class="contact">
+      <section class="contact page__size">
         <a name="contact"></a>
-        
+        <div class="contact__content">
+          <div class="contact__text">
+            <h2 class="contact__title">Contact</h2>
+            <p class="contact__subtitle">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+          </div>
+          <form action="#" class="form">
+            <input type="text" class="form__field form__field_type_first-name" placeholder="First Name" required="required">
+            <input type="text" class="form__field form__field_type_last-name" placeholder="Last Name" required="required">
+            <input type="number" class="form__field form__field_type_phone" placeholder="Phone Number" required="required">
+            <select name="service" id="" class="form__field form__field_type_service" placeholder="Select Service" required="required">
+              <option value="">Select Service</option>
+              <option value="1">Service 1</option>
+              <option value="2">Service 2</option>
+            </select>
+            <button class="form__field form__field_type_submit" type="submit">Submit Now</button>
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer class="footer page__section page__section_size_large">
-      
-      <p class="footer__copyright">&copy; 2022. AlenaAlena</p>
+    <footer class="footer">
+      <div class="table page__size">
+        <div class="table__address">
+          <h2 class="table__title">Address</h2>
+          <address class="table__text">Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor 1090 Picosia USA</address>
+        </div>
+        <div class="table__services">
+          <h2 class="table__title">Services</h2>
+          <ul class="table__text">
+            <li>
+              <a href="#" class="table__text_type_list">Overview</a>
+            </li>
+            <li>
+              <a href="#" class="table__text_type_list">Features</a>
+            </li>
+            <li>
+              <a href="#" class="table__text_type_list">Technology</a>
+            </li>
+            <li>
+              <a href="#" class="table__text_type_list">Terms &#38; Conditions</a>
+            </li>
+            <li>
+              <a href="#" class="table__text_type_list">Privecy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="table__touch">
+          <h2 class="table__title">Get in Touch</h2>
+          <p class="table__text table__text_type_touch">info@cloudbudget.com</p>
+          <p class="table__text table__text_type_touch">+1 844-721-7120</p>
+          <div class="table__social">
+            <a class="table__social-icon"><img src="./images/feather-facebook.svg" alt="facebook"></a>
+            <a class="table__social-icon"><img src="./images/feather-linkedin.svg" alt="linkedin"></a>
+            <a class="table__social-icon"><img src="./images/feather-twitter.svg" alt="twitter"></a>
+          </div>
+        </div>
+        <div class="table__support">
+          <h2 class="table__title">We Support</h2>
+          <img src="./images/support.png" alt="payment systems" class="table__cards">
+        </div>
+      </div>
+      <p class="footer__copyright">Copyright 2022. CloudBudget &#38; AlenaAlena</p>
     </footer>
     
   </div>

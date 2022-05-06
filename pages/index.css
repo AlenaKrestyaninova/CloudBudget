@@ -30,11 +30,13 @@
 @import url(../blocks/app/app.css);
 
 
+/* Раздел contact*/
+@import url(../blocks/contact/contact.css);
+
+
 /* Раздел footer*/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/table/table.css);
 
 
 @import url(../blocks/page/__size/page__size.css);

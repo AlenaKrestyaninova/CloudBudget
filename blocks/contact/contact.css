@@ -1,0 +1,81 @@
+.contact {
+    padding-top: 117px;
+    padding-left: 11px;
+    padding-bottom: 78px;
+}
+
+.contact__content {
+    display: grid;
+    grid-template-columns: 1fr 540px;
+    gap: 125px;
+}
+
+.contact__text {
+    box-sizing: border-box;
+}
+
+.contact__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0;
+}
+
+.contact__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    margin: 0;
+    padding-top: 60px;
+    max-width: 434px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    column-gap: 30px;
+    row-gap: 24px;
+}
+
+.form__field {
+    outline: none;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.form__field::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-left: 31px;
+}
+
+.form__field_type_service {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    padding-left: 31px;
+}
+
+.form__field_type_phone, .form__field_type_service {
+    grid-column: span 2;
+}
+
+.form__field_type_submit {
+    width: 160px;
+    background-color: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

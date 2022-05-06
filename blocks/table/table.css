@@ -1,0 +1,44 @@
+.table {
+    padding-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(254px, 1fr));
+    gap: 30px;
+}
+
+.table__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.table__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    font-style: normal;
+    padding-top: 33px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.table__text_type_list {
+    text-decoration: none;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.table__text_type_touch:nth-of-type(2n) {
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+
+.table__social-icon {
+    margin-right: 12px;
+}
+
+.table__cards {
+    padding-top: 33px;
+}

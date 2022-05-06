@@ -1,0 +1,12 @@
+.footer {
+    background-color: #FAFAFA;
+}
+
+
+
+.footer__copyright {
+    padding-top: 86px;
+    padding-bottom: 86px;
+    margin: 0;
+    padding-left: 165px;
+}
