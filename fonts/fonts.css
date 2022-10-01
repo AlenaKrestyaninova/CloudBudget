@@ -3,7 +3,7 @@
     font-style:  normal;
     font-weight: 700;
     font-display: swap;
-    src: url(./Lato-Bold.ttf) format("truetype"),
+    src: url(./Lato-Bold.ttf) format("truetype");
   }
 
   @font-face {
@@ -11,7 +11,7 @@
     font-style:  normal;
     font-weight: 400;
     font-display: swap;
-    src: url(./Lato-Regular.ttf) format("truetype"),
+    src: url(./Lato-Regular.ttf) format("truetype");
   }
 
   @font-face {
@@ -19,5 +19,5 @@
     font-style:  normal;
     font-weight: 600;
     font-display: swap;
-    src: url(./Lato-Black.ttf) format("truetype"),
+    src: url(./Lato-Black.ttf) format("truetype");
   }
