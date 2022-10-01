@@ -11,6 +11,7 @@
     border: 1px solid #333333;
     box-sizing: border-box;
     border-radius: 6px;
+    padding: 21px 0 20px 31px;
 }
 
 .form__field::placeholder {
@@ -19,7 +20,6 @@
     font-size: 16px;
     line-height: 19px;
     color: rgba(19, 39, 67, 0.5);
-    padding-left: 31px;
 }
 
 .form__field_type_service {
@@ -45,4 +45,5 @@
     line-height: 17px;
     text-transform: uppercase;
     cursor: pointer;
+    padding: 0;
 }

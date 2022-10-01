@@ -38,6 +38,8 @@
     padding-top: 40px;
     margin: 0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .app__download-link {
